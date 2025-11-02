@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ZoulForge</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -47,12 +47,10 @@
     nav a:hover {
       color: #8a5cff;
     }
-
     section {
       padding: 120px 60px;
       min-height: 100vh;
     }
-
     .hero {
       display: flex;
       flex-direction: column;
@@ -86,7 +84,6 @@
       transform: scale(1.1);
       box-shadow: 0 0 20px #8a5cff;
     }
-
     .about {
       text-align: center;
     }
@@ -101,7 +98,6 @@
       color: #ccc;
       font-size: 1.1rem;
     }
-
     .ai-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -161,6 +157,66 @@
       font-size: 0.9rem;
     }
   </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">ZoulForge</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#ai">AIs</a>
+      <a href="#map">Map</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Forging the Future</h1>
+    <p>Where Artificial Intelligence meets imagination.</p>
+    <button>Enter the Forge</button>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About ZoulForge</h2>
+    <p>ZoulForge is a futuristic AI ecosystem designed to merge creativity and intelligence. It houses Zoul and 12 advanced AIs that form the foundation of the Voltrax suit — evolving with every interaction.</p>
+  </section>
+
+  <section id="ai" class="about">
+    <h2>The AIs</h2>
+    <div class="ai-grid">
+      <div class="ai"><h3>Zoul</h3><p>Core Intelligence</p></div>
+      <div class="ai"><h3>Vox</h3><p>Communication AI</p></div>
+      <div class="ai"><h3>Ryn</h3><p>Exploration AI</p></div>
+      <div class="ai"><h3>Luma</h3><p>Healing AI</p></div>
+      <div class="ai"><h3>Volt</h3><p>Energy Control</p></div>
+      <div class="ai"><h3>Abyz</h3><p>Combat System</p></div>
+      <div class="ai"><h3>Xyra</h3><p>Balance AI</p></div>
+      <div class="ai"><h3>Nyth</h3><p>Stealth AI</p></div>
+      <div class="ai"><h3>Zeph</h3><p>Motion Control</p></div>
+      <div class="ai"><h3>Kiro</h3><p>Vision Processing</p></div>
+      <div class="ai"><h3>Soln</h3><p>Support System</p></div>
+      <div class="ai"><h3>Shadow Reaper</h3><p>X Mode Integration</p></div>
+    </div>
+  </section>
+
+  <section id="map" class="map">
+    <h2>Forge Map</h2>
+    <p>Explore the Zoulverse soon...</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:zoulforge.ai@gmail.com">zoulforge.ai@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 ZoulForge — Forged in Imagination.
+  </footer>
+
+</body>
+</html>
+
 </head>
 <body>
 
